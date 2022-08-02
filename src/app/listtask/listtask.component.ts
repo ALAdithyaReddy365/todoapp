@@ -11,9 +11,9 @@ export class ListtaskComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  users = [
-    {id:101,name:"Adithya",email:"adithyaavuthu@gmail.com",status:"PENDING"},
-   {id:1022,name:"Reddy",email:"reddy@gmal.com",status:"compleated"}
+  tasks=[
+    {id:1,name:"Install Java",status:"COMPLETED"},
+    {id:2,name:"Install NodeJS",status:"PENDING"}
   ]
   deleteUser(){
     alert("Successfully Deleted");
