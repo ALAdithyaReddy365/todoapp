@@ -11,11 +11,15 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  name = "Adithya Reddy";
+  name ="Adithya Reddy";
   isValidUser = false;
+
   departments =["CSE", "IT" , "MECH" , "ECE"]
+
   onClick(){
+
     alert("Button Clicked");
+
   }
 
 }

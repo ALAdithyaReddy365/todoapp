@@ -5,13 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-import { ListUsersComponent } from './list-users/list-users.component';
-import { TaskAppComponent } from './task-app/task-app.component';
+import { LoginUsersComponent } from './login-users/login-users.component';
 import { AddtaskComponent } from './addtask/addtask.component';
-import { UpdatetaskComponent } from './updatetask/updatetask.component';
-import { DeletetaskComponent } from './deletetask/deletetask.component';
-import { ListtaskComponent } from './listtask/listtask.component';
+import { EdittaskComponent } from './edittask/edittask.component';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { ListtasksComponent } from './listtasks/listtasks.component';
 import { ViewUserComponent } from './view-user/view-user.component';
 
 @NgModule({
@@ -19,13 +18,12 @@ import { ViewUserComponent } from './view-user/view-user.component';
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    ListUsersComponent,
-    TaskAppComponent,
+    LoginUsersComponent,
     AddtaskComponent,
-    UpdatetaskComponent,
-    DeletetaskComponent,
-    ListtaskComponent,
+    EdittaskComponent,
     HeaderComponent,
+    HomeComponent,
+    ListtasksComponent,
     ViewUserComponent
   ],
   imports: [
